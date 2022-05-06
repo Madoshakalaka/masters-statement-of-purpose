@@ -1,0 +1,67 @@
+My name is Siyuan Yan, and I preferred the name Matt to avoid unnecessary tongue-twisting. I have broad interests in math and computer science. I code both as a hobby and at work, and I’m a contributor and creator of numerous projects.
+In the meantime, I’m fascinated by the interaction between computer science and mathematics, the major areas being numerical methods, combinatorics, and theorem provers.
+
+Undergraduate
+
+I acknowledge I have a lacking GPA of 2.81/4.0, yet I don’t think it’s a faithful reflection of my ability. I’ll explain the extraneous situation I went through below, and It’s my sincere wish that my all-around skills and strong research interest be considered.
+
+I began my undergraduate studies in the computer science specialization program with a math minor. From the outset, I took Honours equivalent of all the math requirements, As a payoff, I applied to and was admitted to the Honours program in my second year, with a math major and computer science minor.
+
+Starting from 2019, while maintaining a full enrolment in my undergraduate courses, I worked as a research assistant in the linguistic department of the University of Alberta under the supervision of Dr. Antti Arppe, a computational linguist at the University of Alberta. The work experience added a lot to my hands-on experience in software development and valuable social skills.
+
+Academically, I had a hiccup in my fourth year, when I tried to start an online business with applied machine learning. I founded and operated soundgone.com (now taken down) which was a paid service that isolates and removes instrument/vocal sound from music sources. The inspiration for the business was from me, as I am a drummer by hobby and I believed that the need for backing tracks was large in demand. However, I ended up spreading myself too thin and couldn’t maintain good academic standing while working for my own business and as a research assistant at the same time. As a consequence, as shown in the transcript, I failed several courses in the academic year of 2020 and had to drop from the Honours program to a general science program.
+
+The experience was personally traumatic to me and brought me immense pressure back then. Yet I learned valuable lessons in time management and was able to overcome the difficulties eventually, finishing my last undergraduate course in the winter of 2021. Considering my overall GPA, rather than the current program (General Mathematics) listed on the transcript, the school allows me to graduate with a B.Sc. in Math Specialization, which has stricter GAP requirements and stricter course requirements consisting of a curriculum of more math courses.
+
+Language Skills
+
+An outstanding mastering of spoken English has been one of my proudest abilities, thanks to my deep interest in phonetics and linguistics in general. It’s usual for others to mistake me for a native
+English speaker despite my Chinese upbringing. I love learning new languages, making friends from
+all backgrounds, and I have kept deep connections with my friends in Canada and my past colleagues.
+
+Research Interests
+
+I am deeply intrigued by the foundations of math. I’m reading books in set theory, proof theory, and logic. Type theory, an alternative yet impactful foundation system of mathematics, has been my recent favorite area of study. As of this application, I have been actively reading and doing exercise problems in Homotopy Type Theory. I find many of its concepts intriguing because of my familiarity with the Rust programming language, a functional programming language with applied ML type theory.
+
+In general, I find type theory immensely beautiful in two ways, both philosophically and pragmatically. First, there is the intuitionist philosophy behind. It always touches my soul when I think of the debates that happened in the early 1900s, where foundations of mathematics were being built and choices in the logic of mathematics were being made, when set theory was chosen to prevail. Yet things have changed a lot since then. As Gödel shows in the incompleteness theorems, theories are not perfect in their proving power. Alternative theories can provide the strength of different proving powers. On the other hand, the nature of intuitionist logic used in type theory always feels appealing to me. The omission of the law of excluded middle in type theory, for example, seems to fit well with the interpretations brought by contemporary physics, which Hilbert and mathematicians back then didn’t have access to. Just like how software gets better with refactoring and iterations, with the benefit of hindsight, reconstructions of the foundations of mathematics from a modern perspective will bound to bring benefits.
+
+Secondly, the constructive nature of type theory serves as a bridge between computers and proofs. Type theory is the underlying theory in proof assistants, programs that understand proofs. With proof assistants, math theorems can be completely computerized and checked meticulously by the machine. It’s just exciting to imagine every math theorem so neatly formalized and their correctness checked. While I am learning Lean, a proof assistant with increasing popularity, I’m amazed at the community of mathematicians implementing advanced math concepts in code. With recent advances in human-machine interaction brought by type theory, proof assistants are really becoming a feasible research tool as well as an education tool in mathematics. And I believe it’s bound to revolutionize how math is researched in the future. Just as what Dr. Andrej Bauer said at the 8th European Congress of Mathematics in 2021:
+
+"But will formalized mathematics go mainstream? I think this is the completely wrong question to answer, . . . of course it will . . . the question is, WHEN . . ."
+
+Another person who inspired my a lot is Dr. Kevin Buzzard at Imperial College London, who is applying proof assistants to both undergraduate math education and advanced research topics like algebraic geometry. It was him and his Xena project that made a tutorial for Lean on the internet and lead me to the world of proof assistants. Dr. Buzzard and I even had a small discussion on Zulipwhere he answered my questions with great kindness and patience. If there’s a chance, I wish to become an evangelist like him and integrate proof assistants as an inherent part of my future research. I wouldn’t doubt in the future, coding with proof assistants will become as important as LaTeX for mathematicians. And I want to contribute to this future.
+
+“I am excited by the vision of a future where computers can do research by themselves” were the words I wrote back then on my application to undergraduate schools. As crazy as it sounded, it’s partially becoming the reality. It’s more so as researchers are exploring the topic of combining machine learning and proof assistants. One of the recent news is from OpenAI which built a “neural theorem prover” for lean that was able to solve a variety of challenging high-school olympiad problems.
+
+Route Choice and Previous Study
+
+Pure Mathematics is undoubtly the route I'm choosing as it coincides better with my interest and background. I have taken and passed a considerable amount of undergraduate courses in pure mathematics in the University of Alberta, as listed below.
+
+On the algebra side which is what I'm interested the most:
+
+Math 127 Honors Linear Algebra I
+Math 227 Honors Linear Algebra II
+Math 328 Algebra Intro Group Theory
+Math 326 Rings and Modules
+
+On the analysis side:
+
+Math 117 Honors Calculus I
+Math 227 Honors Calculus II
+Math 217 Honors Advanced Calculus I
+Math 317 Honors Advanced Calculus II
+Math 331 Theory of Functions Complex Variable
+Math 411 Honors Complex Variables
+Math 417 Honors Real Variables
+
+
+Other math courses I have taken and passed include:
+
+Math 253 Theory of Interest
+Math 334 Intro into Differential Equations
+Math 373 Math Program/Optimization I
+Math 421 Combinatorics
+
+I'm confident I'm well prepared for my postgraduate studies in mathematics as I have laid a solid foundation in my undergraduate studies.
+
+With all the excitement I have, I crave an opportunity to study at the University of York before I can contribute to academia. I've heard nice things about the vibrant college life in the UK and I look forward to the new chapter of my life in York in the upcoming Fall term.

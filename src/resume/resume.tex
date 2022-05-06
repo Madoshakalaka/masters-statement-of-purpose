@@ -1,0 +1,150 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Siyuan Yan ( Matt Yan )}}\\
+	syan4@ualberta.ca $\cdot$ https://madoshakalaka.github.io/\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{University of Alberta}\hfill Edmonton, Alberta\\
+BSc with Specialization in Mathematics \hfill Sep 2016 - Dec 2021\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{Neptish Inside} \hfill https://neptishinside.com/\\
+\textit{Fullstack Web Developer} \hfill Sep 2021 - Oct 2021\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Commissioned work, website for J-Star Motion Corporation, featuring a fully Rusty stack (Axum backend and Yew frontend).
+\end{itemize}
+
+\textbf{Soundgone}\\
+\textit{Founder} \hfill Sep 2019 - June 2021\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+\item Website and related paid services that generate tracks for practice or performance from audio files by isolating or removing selected elements from a song.
+\end{itemize}
+\textbf{University of Alberta, Linguistic Department, ALTLAB} \hfill Edmonton, Alberta\\
+\textit{Research Assistant} \hfill May 2019 - December 2020\\
+\hfill https://itwewina.altlab.app/\\
+\hfill https://altlab.ualberta.ca/\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Web-oriented software development and infrastructure maintenance on indigenous language technologies.
+	Research on finite-state transducers applied to the generation and parsing of highly inflectional indigenous languages local to North America.
+\end{itemize}
+
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Communication:               & Very Good written English, Native level spoken English \\
+	Programming Languages:       & Python, Rust, Typescript/Javascript, Java              \\
+	Daily Linux User:            & Good Scripting Skills                                  \\
+	Multimedia:                  & proficient with Photoshop/Premiere/Gimp etc.           \\
+	I write everything in latex: & including this resume :)                               \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{Blackjack Card Counter}} {\sl Embeded Micro-controller, Combinatorics, Probability, Java} \\
+Independent project that helps to play casino game blackjack. The phone app receives information from two Bluetooth sensors installed in shoes and communicates with a server to indicate the user the best play strategy using phone vibration. Simulation results showed the app gives a significant edge towards the player.\\
+\vspace*{2mm}
+{\textbf{Web Forum}} {\sl AWS ( Amazon Web Services ), Python} \\
+Independent project. A craigslist-like advertisement website oriented to the Chinese community which offers anonymous posting and communication.\\
+\vspace*{2mm}
+{\textbf{Cloud Based Machine Learning Inference}} {\sl Tensorflow} \\
+Collaborated academic project. Provides online virtual glass fitting with user submitted face photos. Implemented the file download/upload handling and browser-end 3D rendering. Bridged the model inference with the web server.\\
+\vspace*{2mm}
+{\textbf{Cloud Based Machine Learning Inference on Video Streaming}} {\sl Tensorflow, YOLO, Microsoft Azure} \\
+Collaborated academic project. Provides real time traffic sign detection where the client streams traffic video to the server and receives detection results. Implemented the the server and client side back-end. Implemented performance measurement and analysis tools with the client and the server.\\
+\vspace*{2mm}
+{\textbf{League of Legneds Assistance}} {\sl Python, OpenCV} \\
+Independent project. A program that processes video stream from the online game League of Legends and responds in realtime. Achieved a win rate of \textasciitilde{}70\% in lower competitive elo.\\
+\vspace*{2mm}
+{\textbf{Open-Source Projects}}\hfill https://github.com/Madoshakalaka\\
+I contribute to a variety of open-source projects. Notably I\textquotesingle{}m the creator of pipenv-setup, a utility that helps manage dependency and the packaging process of pipenv projects, and the creator of yew-interop, a library that helps asyncrously loading resources in the Yew frontend framework written in Rust.\\
+\vspace*{2mm}
+
+\header{Awards}
+\textbf{International Student Scholarship} \hfill The University of Alberta\\
+An scholarship awarded to outstanding international applicants \hfill Sep 2016\\
+\vspace*{2mm}
+
+\ 
+\end{document}
